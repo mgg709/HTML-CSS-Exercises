@@ -1,0 +1,12 @@
+table {
+  border: 1px solid black;
+}
+
+#cabecera {
+  background-color: gray;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: greenyellow;
+}
