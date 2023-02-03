@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-img {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
