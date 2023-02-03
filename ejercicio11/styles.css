@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+}
+button {
+  background-color: royalblue;
+  width: 200px;
+  height: 35px;
+  border: 1px dashed white;
+  border-radius: 8px;
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: royalblue;
+  box-shadow: 3px 3px 10px black;
+}
