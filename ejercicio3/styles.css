@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+}
+
+input {
+  border-style: inset;
+}
+
+.btn {
+  border: 1px solid gray;
+  cursor: pointer;
+}
