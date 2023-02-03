@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+}
+
+.content:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 25px solid skyblue;
+  border-bottom: 15px solid transparent;
+  margin: 13px 0 0 -25px;
+}
+.content {
+  background-color: skyblue;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+}
