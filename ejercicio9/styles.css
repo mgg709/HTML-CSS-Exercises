@@ -19,6 +19,7 @@ body {
 .btn:hover {
   background-color: darkblue;
   transform: rotateZ(360deg);
+  cursor: pointer;
 }
 .btn:active {
   background-color: red;
