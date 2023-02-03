@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+}
+
+.tabla {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
