@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 40px;
+}
+
+.btn {
+  background-color: skyblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-size: 1.5vw;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 3s;
+}
+
+.btn:hover {
+  background-color: darkblue;
+  transform: rotateZ(360deg);
+}
+.btn:active {
+  background-color: red;
+}
